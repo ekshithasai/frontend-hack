@@ -1,0 +1,26 @@
+a:link { text-decoration: none;}
+a:visited { text-decoration: none;}
+a:hover { text-decoration: underline;}
+a:active { text-decoration: underline;}
+.col{
+    float: left;
+    width: 50%;
+    column-gap: 40px;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col5{
+    float: left;
+    width: 20%;
+}
+
+.row5:after{
+    content: "";
+    display: table;
+    clear: both;
+}
